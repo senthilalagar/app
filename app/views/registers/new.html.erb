@@ -3,3 +3,5 @@
 <%= render 'form', register: @register %>
 
 <%= link_to 'Back', registers_path %>
+<%= link_to "Sign out", destroy_admin_session_path, :method => :delete %>
+  
